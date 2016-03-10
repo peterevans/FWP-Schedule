@@ -192,6 +192,7 @@
 				TargetAttributes = {
 					2F4A221B1BAC90ED00E99B17 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 46M494EKER;
 					};
 					2F4A222F1BAC90ED00E99B17 = {
 						CreatedOnToolsVersion = 7.0;
@@ -398,10 +399,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "FWP Schedule/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.fwparker.FWP-Schedule";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -409,10 +413,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "FWP Schedule/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.fwparker.FWP-Schedule";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -483,6 +490,7 @@
 				2F4A22461BAC90ED00E99B17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F4A22471BAC90ED00E99B17 /* Build configuration list for PBXNativeTarget "FWP ScheduleTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +499,7 @@
 				2F4A22491BAC90ED00E99B17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F4A224A1BAC90ED00E99B17 /* Build configuration list for PBXNativeTarget "FWP ScheduleUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +508,7 @@
 				2F4A224C1BAC90ED00E99B17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
